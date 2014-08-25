@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PYTHON_PYSHARK
+	bool "python-pyshark"
+	depends on BR2_PACKAGE_PYTHON
+	help
+	  python-pyshark package
